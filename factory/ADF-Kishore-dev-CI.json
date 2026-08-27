@@ -1,0 +1,15 @@
+{
+	"name": "ADF-Kishore-dev-CI",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a10df4f1-99e0-4402-a016-8a7d7c9e1158",
+		"tenantId": "93c726d2-8854-4446-969a-b9c3cfe87f89"
+	}
+}

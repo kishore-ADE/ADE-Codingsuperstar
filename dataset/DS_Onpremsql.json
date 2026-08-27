@@ -1,0 +1,13 @@
+{
+	"name": "DS_Onpremsql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_OnpremSQL_Adventure",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
