@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-Kishore-dev-CI"
+		},
+		"LS_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_AzureSQL_password": {
+			"value": ""
+		},
+		"LS_OnpremSQL_Adventure_password": {
+			"value": ""
+		},
+		"DS_Source_Rest_JSON_Data_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://stkishoredevci.dfs.core.windows.net/"
+		},
+		"LS_AzureSQL_properties_typeProperties_server": {
+			"value": "sql-kishore-dev-ci.database.windows.net"
+		},
+		"LS_AzureSQL_properties_typeProperties_database": {
+			"value": "SQLDB-Kishore-dev-CI"
+		},
+		"LS_AzureSQL_properties_typeProperties_userName": {
+			"value": "dmmuser"
+		},
+		"LS_OnpremSQL_Adventure_properties_typeProperties_server": {
+			"value": "Sahithya_Dasari"
+		},
+		"LS_OnpremSQL_Adventure_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2019"
+		},
+		"LS_OnpremSQL_Adventure_properties_typeProperties_userName": {
+			"value": "dbadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
